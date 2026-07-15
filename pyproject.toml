@@ -9,18 +9,19 @@ description = "Convert CSV files to Excel and Excel files to CSV"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
+
 authors = [
     {name = "Danil Runtime"}
 ]
-
-[project.urls]
-Repository = "https://github.com/danilruntime/cli-csv-to-excel"
-Issues = "https://github.com/danilruntime/cli-csv-to-excel/issues"
 
 dependencies = [
     "pandas>=2.5,<4.0",
     "openpyxl>=3.1,<4.0",
 ]
+
+[project.urls]
+Repository = "https://github.com/danilruntime/cli-csv-to-excel"
+Issues = "https://github.com/danilruntime/cli-csv-to-excel/issues"
 
 [project.scripts]
 csv-to-excel = "csv_to_excel.cli:main"
