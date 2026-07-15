@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cli-csv-to-excel"
+version = "1.0.0"
+description = "Convert CSV files to Excel and Excel files to CSV"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+
+authors = [
+    {name = "Danil Runtime"}
+]
+
+dependencies = [
+    "pandas>=2.5,<4.0",
+    "openpyxl>=3.1,<4.0",
+]
+
+[project.scripts]
+csv-to-excel = "csv_to_excel.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"csv_to_excel" = ["locale/**/*.mo"]

@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: custom\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Converts a CSV file to Excel format or vice versa"
+msgstr "Конвертирует CSV файл в формат Excel или наоборот"
+
+msgid "Conversion successful"
+msgstr "Конвертация успешна"
+
+msgid "File not found: %s"
+msgstr "Файл не найден: %s"
+
+msgid "Error processing file: %s"
+msgstr "Ошибка обработки файла: %s"

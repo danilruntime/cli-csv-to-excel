@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: argparse\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%(heading)s:"
+msgstr "%(heading)s:"
+
+msgid "usage: "
+msgstr "использование: "
+
+msgid " (default: %(default)s)"
+msgstr " (по умолчанию: %(default)s)"
+
+msgid "argument %(argument_name)s: %(message)s"
+msgstr "аргумент %(argument_name)s: %(message)s"
+
+msgid "show program's version number and exit"
+msgstr "Показать версию программы и выйти"
+
+msgid "unknown parser %(parser_name)r (choices: %(choices)s)"
+msgstr "неизвестная команда %(parser_name)r (доступны: %(choices)s)"
+
+msgid "command '%(parser_name)s' is deprecated"
+msgstr "команда '%(parser_name)s' устарела"
+
+msgid "argument \"-\" with mode %r"
+msgstr "аргумент \"-\" с режимом %r"
+
+msgid "can't open '%(filename)s': %(error)s"
+msgstr "не удалось открыть '%(filename)s': %(error)s"
+
+msgid "positional arguments"
+msgstr "позиционные аргументы"
+
+msgid "options"
+msgstr "параметры"
+
+msgid "show this help message and exit"
+msgstr "Показать это справочное сообщение и выйти"
+
+msgid "subcommands"
+msgstr "подкоманды"
+
+msgid "unrecognized arguments: %s"
+msgstr "неизвестные аргументы: %s"
+
+msgid "not allowed with argument %s"
+msgstr "нельзя использовать вместе с аргументом %s"
+
+msgid "ambiguous option: %(option)s could match %(matches)s"
+msgstr "неоднозначный параметр: %(option)s может соответствовать %(matches)s"
+
+msgid "ignored explicit argument %r"
+msgstr "явно указанный аргумент %r был проигнорирован"
+
+msgid "option '%(option)s' is deprecated"
+msgstr "параметр '%(option)s' устарел"
+
+msgid "argument '%(argument_name)s' is deprecated"
+msgstr "аргумент '%(argument_name)s' устарел"
+
+msgid "the following arguments are required: %s"
+msgstr "необходимо указать следующие аргументы: %s"
+
+msgid "one of the arguments %s is required"
+msgstr "необходимо указать один из аргументов %s"
+
+msgid "expected one argument"
+msgstr "ожидается один аргумент"
+
+msgid "expected at most one argument"
+msgstr "ожидается не более одного аргумента"
+
+msgid "expected at least one argument"
+msgstr "ожидается не менее одного аргумента"
+
+msgid "unexpected option string: %s"
+msgstr "неожиданный параметр: %s"
+
+msgid "invalid %(type)s value: %(value)r"
+msgstr "недопустимое значение %(type)s: %(value)r"
+
+msgid "invalid choice: %(value)r (choose from %(choices)s)"
+msgstr "недопустимый выбор: %(value)r (выберите из %(choices)s)"
+
+msgid "invalid choice: %(value)r, maybe you meant %(closest)r? (choose from %(choices)s)"
+msgstr "недопустимый выбор: %(value)r. Возможно, вы имели в виду %(closest)r? (выберите из %(choices)s)"
+
+msgid "%(prog)s: error: %(message)s\n"
+msgstr "%(prog)s: ошибка: %(message)s\n"
+
+msgid "%(prog)s: warning: %(message)s\n"
+msgstr "%(prog)s: предупреждение: %(message)s\n"
+
+msgid "INPUT"
+msgstr "ВХОД"
+
+msgid "OUTPUT"
+msgstr "ВЫХОД"
+
+msgid "Input file"
+msgstr "Входной файл"
+
+msgid "Output file"
+msgstr "Выходной файл"
