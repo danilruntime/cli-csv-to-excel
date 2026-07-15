@@ -4,11 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cli-csv-to-excel"
-version = "1.1.1"
+version = "1.1.2"
 description = "Convert CSV files to Excel and Excel files to CSV"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
+
+[project.urls]
+Repository = "https://github.com/danilruntime/cli-csv-to-excel"
+Issues = "https://github.com/danilruntime/cli-csv-to-excel/issues"
 
 authors = [
     {name = "Danil Runtime"}
